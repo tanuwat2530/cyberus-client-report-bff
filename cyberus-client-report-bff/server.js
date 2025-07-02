@@ -8,7 +8,7 @@ const PORT = 3003;
 app.use(cors());
 app.use(express.json());
 
-app.use('/api/client-report', userRoutes);
+app.use('/api', userRoutes);
 
 app.listen(PORT, () => {
   console.log(`BFF running on http://localhost:${PORT}`);
