@@ -6,10 +6,10 @@ const clientShortcodeController = require('../controllers/clientShortcodeControl
 const clientSessionController = require('../controllers/clientSessionController');
 
 
-router.post('/client-report-login', clientLoginController.loginUser);
-router.post('/client-report-session', clientSessionController.clientSession);
-router.post('/client-report-line-chart', chartReportController.chartReport);
-router.post('/client-report-shortcode-client', clientShortcodeController.clientShortcode);
+router.post('/report-login', clientLoginController.loginUser);
+router.post('/report-session', clientSessionController.clientSession);
+router.post('/report-line-chart', chartReportController.chartReport);
+router.post('/report-shortcode-client', clientShortcodeController.clientShortcode);
 
 
 module.exports = router;
