@@ -1,4 +1,4 @@
-const clientRequestHistoryService = require('../services/clientRequestHistorycodeService');
+const clientRequestHistoryService = require('../services/clientRequestHistoryService');
 
 exports.clientRequestHistory = async (req, res) => {
   try {
